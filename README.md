@@ -14,8 +14,8 @@ Lola, Thomas, and Jacob
 
 ## Important downloads from Drive BEFORE running files below
 - Unzip ``medium_test_data.zip`` and ``data.zip`` into the main project folder
-
-
+- https://drive.google.com/drive/folders/1MoVnZ6-MgbVXc3y-eWM2k0H8S0DgGPI7?usp=sharing
+  
 ## Instructions to run ``paintCanvas.py``
 - ``python paintCanvas.py``
 - Should open up a white canvas with buttons at the bottom.
