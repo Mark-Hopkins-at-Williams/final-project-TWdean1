@@ -168,7 +168,7 @@ class paint:
                 elif event.type == pg.MOUSEBUTTONUP and self.DRAWING:
                     self.DRAWING = False
                     self.current_stroke +=1 
-                    if self.current_stroke < 9:
+                    if self.current_stroke < 8:
                         temp_tensor = self.gridtensor[self.current_stroke-1].detach()
                         self.gridtensor[self.current_stroke] = temp_tensor
 
