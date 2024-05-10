@@ -162,8 +162,8 @@ def run(data_config, n_epochs, channels_list, dense_hidden_size, LSTM_hidden_siz
 
 if __name__ == "__main__":
     # runs the model 
-    classifier, monitor = run("small_test_data_json.json", 5, channels_list = [32, 16, 8], dense_hidden_size = 256, LSTM_hidden_size=256)
-    classifier.save("small_model_cnn")
+    classifier, monitor = run("medium_test_data_json.json", 5, channels_list = [32, 16, 8], dense_hidden_size = 256, LSTM_hidden_size=256)
+    classifier.save("medium_model_cnn")
     
 
     # test_set = DataPartition("small_test_data_json.json", 'test')
