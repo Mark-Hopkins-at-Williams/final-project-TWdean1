@@ -115,6 +115,7 @@ class paint:
             if self.current_stroke == 8: 
                 self.grid = self.gridinit(ROWS, COLS)
                 self.gridtensor = torch.zeros(8, ROWS, COLS)
+                self.current_stroke = 0
 
             for event in self.events:
 
