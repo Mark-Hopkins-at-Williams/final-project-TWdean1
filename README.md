@@ -11,6 +11,7 @@ Lola, Thomas, and Jacob
 - ``paintCanvas.py``: Canvas for users to draw on.
 - ``medium_model_lstm``: The trained LSTM-based model.
 - ``medium_model_cnn``: The trained cnn only based model.
+- ``WriteUp.pdf``: A writeup explaining our inspiration and methods for the deliverable. 
 
 ## Important downloads from Drive BEFORE running files below
 - Unzip ``medium_test_data.zip`` and ``data.zip`` into the main project folder
@@ -27,6 +28,6 @@ Lola, Thomas, and Jacob
 - Takes forever not recommended. We provide the trained models in ``medium_model_lstm`` and ``medium_model_cnn``.
 
 ## Instructions to run ``test_dataFormatter.py``
-- ``python test_dataFormatter.py``
+- ``python test_dataFormatter.py`` (takes ~2 minutes)
 - Outputs stroke images into ``testImages`` from a small test json input files ``SMALLfull-simplified-circle.ndjson`` and ``SMALLfull-simplified-triangle.ndjson``
 - Variety of additional test methods for the dataFormatter and dataManager for 2d and 3d images
